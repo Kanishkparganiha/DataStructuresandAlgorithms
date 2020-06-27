@@ -1,0 +1,17 @@
+00:35:06 **** Rebuild of configuration Debug for project Queue_Linked_List ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Queue_Using_Linked_List.o "..\\Queue_Using_Linked_List.cpp" 
+..\Queue_Using_Linked_List.cpp: In function 'void Reverse()':
+..\Queue_Using_Linked_List.cpp:76:14: warning: unused variable 'prev' [-Wunused-variable]
+ struct Node *prev, *next, *current;
+              ^~~~
+..\Queue_Using_Linked_List.cpp:76:21: warning: unused variable 'next' [-Wunused-variable]
+ struct Node *prev, *next, *current;
+                     ^~~~
+..\Queue_Using_Linked_List.cpp:76:28: warning: variable 'current' set but not used [-Wunused-but-set-variable]
+ struct Node *prev, *next, *current;
+                            ^~~~~~~
+g++ -o Queue_Linked_List.exe Queue_Using_Linked_List.o 
+
+00:35:07 Build Finished. 0 errors, 3 warnings. (took 808ms)
+

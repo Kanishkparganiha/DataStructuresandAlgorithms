@@ -1,0 +1,51 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int n;
+cout<<"Enter the size of array"<<endl;
+cin>>n;
+int arr[n];
+cout<<"Enter the elements"<<endl;
+for(int b=0;b<n;b++)
+{
+	cin>>arr[b];
+}
+int i=1;
+int j=0;
+int temp;
+
+while(j!=n)
+{
+cout<<"Even Position "<<arr[j]<<endl;
+cout<<"Odd Position "<<arr[i]<<endl;
+if(arr[j]>=arr[i])
+{
+temp=arr[i];
+arr[i]=arr[j];
+arr[j]=temp;
+}
+i+=2;
+j+=2;
+}
+
+
+//cout<<"Even Position "<<arr[j]<<endl;
+
+
+cout<<"Final Array"<<endl;
+for(int a=0;a<n;a++)
+{
+	cout<<arr[a]<<"->";
+}
+return 0;
+}
+
+
+
+
+
+
+

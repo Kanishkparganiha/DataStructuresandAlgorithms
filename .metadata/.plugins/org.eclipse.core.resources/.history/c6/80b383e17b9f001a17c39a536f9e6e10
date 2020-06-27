@@ -1,0 +1,22 @@
+/*
+ * Practie.cpp
+ *
+ *  Created on: May 18, 2020
+ *      Author: Kanishk
+ */
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int n;
+int arr[n];
+cout<<"Enter the number of element in the array";
+cin>>n;
+
+return 0;
+}
+
+
+

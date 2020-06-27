@@ -1,0 +1,13 @@
+21:06:35 **** Incremental Build of configuration Debug for project Practise ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o source.o "..\\source.cpp" 
+..\source.cpp: In function 'int main()':
+..\source.cpp:22:7: error: 'a' was not declared in this scope
+ Check(a,sum);
+       ^
+..\source.cpp:24:7: error: 'b' was not declared in this scope
+ Check(b,sum);
+       ^
+
+21:06:36 Build Failed. 2 errors, 0 warnings. (took 1s.261ms)
+

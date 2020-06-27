@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LinkedList/LinkedList.cpp&apos; to &apos;Stack.cpp&apos;" description="Rename resource &apos;LinkedList.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="LinkedList.cpp" name="Stack.cpp" stamp="1589763132297" updateReferences="true"/>
+</session>

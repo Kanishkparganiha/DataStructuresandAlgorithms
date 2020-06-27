@@ -1,0 +1,45 @@
+/*
+ * source.cpp
+ *
+ *  Created on: May 27, 2020
+ *      Author: Kanishk
+ */
+
+#include <iostream>
+using namespace std;
+
+struct Node{
+	int data;
+	Node *leftChild;
+	Node *rightChild;
+};
+
+ Node Insert(Node *node,int data)
+{
+Node *tempNode=new Node;
+
+tempNode->data=data;
+tempNode->leftChild=NULL;
+tempNode->rightChild=NULL;
+if(node==NULL)
+{node=tempNode;
+ return node;	}
+else
+   if(data < node->data)
+	    return Insert(node->left,data);
+   else
+	   return Insert(node->right,data);
+
+
+}
+
+
+
+int main()
+{
+Node *root=NULL;
+root=Insert(root,15);
+
+return 0;
+}
+
